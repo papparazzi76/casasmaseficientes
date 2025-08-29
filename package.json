@@ -1,0 +1,12 @@
+{
+  "name": "casasmaseficientes-monorepo",
+  "private": true,
+  "packageManager": "pnpm@8.15.5",
+  "version": "20.0.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r --parallel dev",
+    "start": "echo 'Use pm2 with ecosystem.config.cjs'"
+  },
+  "workspaces": ["apps/*","packages/*"]
+}
